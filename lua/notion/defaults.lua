@@ -1,28 +1,28 @@
 local M = {}
 
 M.autoUpdate = true
-M.open = "notion"
+M.open = 'notion'
 M.keys = {
-    deleteKey = "d",
-    openNotion = "o",
-    editKey = "e",
-    itemAdd = "a",
-    viewKey = "v",
-    remindKey = "r"
+  deleteKey = 'd',
+  openNotion = 'o',
+  editKey = 'e',
+  itemAdd = 'a',
+  viewKey = 'v',
+  remindKey = 'r',
 }
 M.delays = {
-    reminder = 4000,
-    format = 500,
-    update = 10000
+  reminder = 4000,
+  format = 500,
+  update = 10000,
 }
 M.notification = true
-M.editor = "light"
+M.editor = 'light'
 M.viewOnEdit = {
-    enabled = false,
-    replace = false
+  enabled = false,
+  replace = false,
 }
-M.direction = "vsplit"
-M.noEvent = "No Events"
+M.direction = 'vsplit'
+M.noEvent = 'No Events'
 M.debug = false
 
 return M
